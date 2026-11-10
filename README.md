@@ -1,5 +1,9 @@
 # Деловой совет Россия — Индия
 
+**Сайт:** https://djaflienda.github.io/russia-india-council/
+
+**Репозиторий:** https://github.com/Djaflienda/russia-india-council
+
 Адаптивный визуальный прототип по Figma: `ZMHQi5SYy6PmRHwlfNq7tx`, экран **Desktop - 17**, узел **2:918**.
 
 Статический сайт без сборки и внешних зависимостей. Изображения, SVG и шрифты хранятся в `assets/`. Для просмотра запустите `python3 -m http.server 4173` в этой папке и откройте http://localhost:4173.
@@ -10,6 +14,6 @@
 
 ## GitHub Pages
 
-Загрузите содержимое папки в публичный репозиторий. В **Settings → Pages → Build and deployment** выберите **Deploy from a branch**, ветку **main**, папку **/ (root)** и сохраните. Сайт будет доступен по адресу `https://<username>.github.io/<repository>/`.
+Публикация настроена из ветки **main**, папки **/ (root)**. После загрузки изменений GitHub Pages автоматически обновляет сайт.
 
 Пути относительные, поэтому сайт поддерживает как корневой домен GitHub Pages, так и публикацию в подпапке репозитория.
