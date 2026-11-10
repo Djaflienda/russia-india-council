@@ -116,6 +116,7 @@ translations.set('Состав Правления','Board members');
 translations.set('Информация о членах Правления будет опубликована после согласования.','Information about Board members will be published after approval.');
 translations.set('Развиваем сотрудничество вместе','Developing cooperation together');
 translations.set('Способствовать всестороннему развитию партнерства России и Индии, объединяя бизнес, технологии, инвестиции и человеческий капитал двух стран', 'To foster comprehensive partnership between Russia and India, bringing together the businesses, technologies, investment and human capital of both countries');
+for (const [ru,en] of [['Промышленность','Industry'],['Финансы и инвестиции','Finance & investment'],['Энергетика','Energy'],['Образование и кадры','Education & talent'],['Технологии и инновации','Technology & innovation'],['Здравоохранение','Healthcare'],['Логистика','Logistics']]) translations.set(ru,en);
 const normalizedTranslations = new Map([...translations].map(([key,value]) => [key.replace(/\s+/g, ' ').trim(),value]));
 const textNodes = [];
 const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT);
