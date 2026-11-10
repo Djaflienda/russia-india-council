@@ -4,6 +4,9 @@
 .hero-art{position:absolute;inset:0;overflow:hidden;z-index:-1;pointer-events:none;background:#052633}
 .hero-camera{position:absolute;inset:-6%;transform:translate3d(0,0,0) scale(1);transition:transform 5s cubic-bezier(.3,0,.3,1);will-change:transform}
 .hero .hero-image{position:absolute;inset:0;width:100%;height:100%;min-height:0;object-fit:cover;max-width:none;transform:scaleX(-1);animation:glass-drift 18s ease-in-out infinite alternate}
+.hero-glass{position:absolute;inset:0;width:100%;height:100%;display:none}
+.has-glass-motion .hero-glass{display:block}
+.hero .has-glass-motion .hero-image{visibility:hidden;animation-play-state:paused}
 .hero-tint{background:#14425a}
 .hero-glow{position:absolute;inset:-45%;background:radial-gradient(ellipse at 65% 55%,#b7ecff70,transparent 28%),linear-gradient(115deg,transparent 36%,#8ed8f830 46%,transparent 54%);mix-blend-mode:screen;animation:light-flow 12s ease-in-out infinite alternate;opacity:.65;will-change:transform}
 .hero-shade{position:absolute;inset:0;background:linear-gradient(90deg,#00171f4d,transparent 78%)}
